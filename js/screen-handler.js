@@ -251,8 +251,6 @@ function createInfoScreen() {
   
     }
   
-  
-  
     //? Populate the list of neat facts
   
     if(artifacts[_myIndex].facts !== undefined){
