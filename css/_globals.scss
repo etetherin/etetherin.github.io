@@ -1,0 +1,145 @@
+//? ================================== PERMANENT RESETS ==========================================
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gotham", sans-serif;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin ResetList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  //? ============================= SELECTABLES (use @include NAME;) ===============================
+  
+  
+@mixin FlexHorizCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin FlexVertCenter {
+  display: flex;
+  align-items: center;
+}
+
+//// -------------- List Stuff -----------------
+
+@mixin HorizontalList {
+  @include ResetList;
+  display: flex;
+}
+
+@mixin VerticalList {
+  @include ResetList;
+}
+  
+  //? =========================================== GLOBAL PARAMETERS ====================================
+  
+  
+// //// -------------- Anchor Tags ------------------
+
+// a {
+//   color:rgb(228, 111, 43);
+//   text-decoration: none;
+// }
+
+// a:hover {
+//   opacity: 0.5;
+// }
+
+// //// ----------- Nav Stuff ------------
+
+// nav {
+//    background-color: #262626;
+//   border-right: 1px solid rgb(228, 111, 43);
+//   @include FlexHorizCenter;
+//   top: 0;
+//   left: 0;
+//   bottom:0;
+//   z-index: 200;
+
+//   ul {
+//     @include VerticalList;
+//     justify-content: center;
+//     padding:20px;
+
+
+//     li {
+//       padding: 20px;
+//       white-space: nowrap;
+//     }
+//   }
+// }
+
+
+  ////  ------------------ FOOTER -------------------
+  
+  //// ----------- Headers Settings -----------------
+  
+  h1 {
+    font-size: 5em !important; 
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.1em;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+  }
+  
+  h5 {
+    font-size: 1em;
+  }
+  
+  h6 {
+    font-size: 1em;
+  }
+  
+  //// ----------- Paragraph Settings ------------
+  
+  p {
+    font-size: 1.2em;
+  }
+  
