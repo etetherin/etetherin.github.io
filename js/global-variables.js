@@ -59,7 +59,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -1760000,
       tags: ['tool'],
       location: 'southamerica',
-      facts: ['Created with a slightly more predictable method of smashing rocks tooutlookgether, still very luck based.','More sophisticated than previous stone tools, slightly sharper, and somwhate purpose built.', 'Used exactly as previous stone tools.'],
+      facts: ['Created with a slightly more predictable method of smashing rocks together, still very luck based.','More sophisticated than previous stone tools, slightly sharper, and somwhate purpose built.', 'Used exactly as previous stone tools.'],
       relation: [ 'Hand Axe'],
       // myYlevel: 0,
     },
