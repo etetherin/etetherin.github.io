@@ -59,7 +59,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -1760000,
       tags: ['tool'],
       location: 'southamerica',
-      facts: ['Created with a slightly more predictable method of smashing rocks together, still very luck based.','More sophisticated than previous stone tools, slightly sharper, and somwhate purpose built.', 'Used exactly as previous stone tools.'],
+      facts: ['Created with a slightly more predictable method of smashing rocks together, still very luck based.','More sophisticated than previous stone tools, slightly sharper, and somewhat purpose built.', 'Used exactly as previous stone tools.'],
       relation: [ 'Hand Axe'],
       // myYlevel: 0,
     },
@@ -69,7 +69,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -1600000,
       tags: ['tool'],
       location: 'africa',
-      facts: ['Produced by a series of controled strikes to break them in controlled ways.', 'One of the first refined stone tools.', 'The first tool designed with a specific task in mind.', 'Sometimes used as "killer frisbies."', 'Most had a sharp border all around'],
+      facts: ['Produced by a series of controlled strikes to break them in controlled ways.', 'One of the first refined stone tools.', 'The first tool designed with a specific task in mind.', 'Sometimes used as "killer frisbies."', 'Most had a sharp border all around'],
       relation: ['Fire'],
     },
     {
@@ -78,7 +78,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -1000000,
       tags: ['science'],
       location: 'africa',
-      facts: ['Control of fire happened in multiple steps.', 'The first step was interacting with burned landscapes in the wake of wildfires.', 'The next stop would be to use residual hotspots that occured after wildfires in order to process undercooked meat.', 'The final step would have been transporting it from burned areas to unberned ones and lighting them on fire '],
+      facts: ['Control of fire happened in multiple steps.', 'The first step was interacting with burned landscapes in the wake of wildfires.', 'The next step would be to use residual hotspots that occured after wildfires in order to process undercooked meat.', 'The final step would have been transporting it from burned areas to unburned ones and lighting them on fire '],
       relation: ['Mode 3 Stone Tools'],
     },
     {
@@ -106,7 +106,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -135000,
       tags: ['art', 'trade'],
       location: 'southamerica',
-      facts: ['Most commonly made from snail shells.', 'First sogn of cultural development.', 'First sign of arts development.'],
+      facts: ['Most commonly made from snail shells.', 'First sign of cultural development.', 'First sign of arts development.'],
       relation: ['Sewing Needle'],
     },
     {
@@ -115,7 +115,7 @@ const artifacts = [  //todo Move this to a different file with all the data in i
       yearInvented: -50000,
       tags: ['tool', 'trade'],
       location: 'asia',
-      facts: ['The first form of sewing was probably tying animal skins together using thorns and small sharpened rocks.', ''],
+      facts: ['The first form of sewing was probably tying animal skins together using thorns and small sharpened rocks.'],
       relation: [],
     }
   ]
